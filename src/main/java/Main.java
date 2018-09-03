@@ -33,6 +33,6 @@ public class Main {
                 }
             }
         }
-        postArray.forEach(o-> System.out.println(((JSONObject)o).toJSONString()));
+        System.out.println(postArray.toJSONString());
     }
 }
